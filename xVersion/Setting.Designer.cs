@@ -39,12 +39,14 @@
             txtLocalDir = new System.Windows.Forms.TextBox();
             label4 = new System.Windows.Forms.Label();
             btnPath = new System.Windows.Forms.Button();
+            label5 = new System.Windows.Forms.Label();
+            txtSecureKey = new System.Windows.Forms.TextBox();
             SuspendLayout();
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new System.Drawing.Point(50, 267);
+            label2.Location = new System.Drawing.Point(50, 365);
             label2.Name = "label2";
             label2.Size = new System.Drawing.Size(103, 25);
             label2.TabIndex = 9;
@@ -61,7 +63,7 @@
             // 
             // txtIgnore
             // 
-            txtIgnore.Location = new System.Drawing.Point(50, 297);
+            txtIgnore.Location = new System.Drawing.Point(50, 395);
             txtIgnore.Multiline = true;
             txtIgnore.Name = "txtIgnore";
             txtIgnore.Size = new System.Drawing.Size(338, 93);
@@ -77,7 +79,7 @@
             // 
             // btnSave
             // 
-            btnSave.Location = new System.Drawing.Point(50, 404);
+            btnSave.Location = new System.Drawing.Point(50, 502);
             btnSave.Name = "btnSave";
             btnSave.Size = new System.Drawing.Size(130, 34);
             btnSave.TabIndex = 5;
@@ -105,7 +107,7 @@
             // txtLocalDir
             // 
             txtLocalDir.AcceptsReturn = true;
-            txtLocalDir.Location = new System.Drawing.Point(50, 216);
+            txtLocalDir.Location = new System.Drawing.Point(50, 314);
             txtLocalDir.Name = "txtLocalDir";
             txtLocalDir.Size = new System.Drawing.Size(288, 31);
             txtLocalDir.TabIndex = 10;
@@ -113,7 +115,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new System.Drawing.Point(50, 186);
+            label4.Location = new System.Drawing.Point(50, 284);
             label4.Name = "label4";
             label4.Size = new System.Drawing.Size(169, 25);
             label4.TabIndex = 11;
@@ -121,7 +123,7 @@
             // 
             // btnPath
             // 
-            btnPath.Location = new System.Drawing.Point(344, 216);
+            btnPath.Location = new System.Drawing.Point(344, 314);
             btnPath.Name = "btnPath";
             btnPath.Size = new System.Drawing.Size(44, 34);
             btnPath.TabIndex = 12;
@@ -129,11 +131,30 @@
             btnPath.UseVisualStyleBackColor = true;
             btnPath.Click += btnPath_Click;
             // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new System.Drawing.Point(50, 196);
+            label5.Name = "label5";
+            label5.Size = new System.Drawing.Size(159, 25);
+            label5.TabIndex = 14;
+            label5.Text = "Backup Secure Key";
+            // 
+            // txtSecureKey
+            // 
+            txtSecureKey.Location = new System.Drawing.Point(50, 226);
+            txtSecureKey.Name = "txtSecureKey";
+            txtSecureKey.Size = new System.Drawing.Size(338, 31);
+            txtSecureKey.TabIndex = 13;
+            txtSecureKey.Text = "securekey12345";
+            // 
             // Setting
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            ClientSize = new System.Drawing.Size(433, 454);
+            ClientSize = new System.Drawing.Size(433, 613);
+            Controls.Add(label5);
+            Controls.Add(txtSecureKey);
             Controls.Add(btnPath);
             Controls.Add(label4);
             Controls.Add(label3);
@@ -165,5 +186,7 @@
         private System.Windows.Forms.TextBox txtLocalDir;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnPath;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtSecureKey;
     }
 }

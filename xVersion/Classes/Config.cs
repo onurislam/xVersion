@@ -13,6 +13,7 @@ namespace xVersion.Classes
             public string Ignore { get; set; } 
             public string BackupFile { get; set; }
             public string LocalDir { get; set; }
+            public string SecureKey { get; set; }
         }
 
         public static void ConfigSave(Configs config)

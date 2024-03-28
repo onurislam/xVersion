@@ -51,9 +51,16 @@ function BackupZip($backupSource, $source, $ignore)
     $zip->close();
 }
 
-header("Content-Type: application/json", true);
+header("Content-Type: application/json");
+$key = htmlspecialchars($_GET['key'], ENT_QUOTES, 'UTF-8');
 $type = htmlspecialchars($_GET['type'], ENT_QUOTES, 'UTF-8');
 $backupFolder = htmlspecialchars($_GET['backupfolder'], ENT_QUOTES, 'UTF-8');
+$secureKey = "securekey12345";
+if($key == "" || $key != $secureKey){
+    print_r(json_encode(['statu' => 'error', 'result' => 'secure key error'], true));
+    exit();
+}
+
 $ignore = $_GET['ignore'];
 if ($type == "dir") {
     $directory = __DIR__;

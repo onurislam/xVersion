@@ -25,7 +25,7 @@ namespace xVersion.Classes
 
             Configs config = Config.ConfigRead();
             using var httpClient = new HttpClient();
-            var response = httpClient.GetAsync(config.SourceURL + "/backup.php?type=dir&ignore=" + config.Ignore).Result;
+            var response = httpClient.GetAsync(config.SourceURL + "/backup.php?key=" + config.SecureKey + "&type=dir&ignore=" + config.Ignore).Result;
             var content = response.Content.ReadAsStringAsync().Result;
             string[] data = JsonConvert.DeserializeObject<string[]>(content);
 
@@ -39,7 +39,7 @@ namespace xVersion.Classes
             {
                 Configs config = Config.ConfigRead();
                 using var httpClient = new HttpClient();
-                var response = httpClient.GetAsync(config.SourceURL + "/backup.php?ignore=" + config.Ignore + "&backupfolder=" + config.BackupFile + "&type=" + folderName).Result;
+                var response = httpClient.GetAsync(config.SourceURL + "/backup.php?key=" + config.SecureKey + "&ignore=" + config.Ignore + "&backupfolder=" + config.BackupFile + "&type=" + folderName).Result;
                 var content = response.Content.ReadAsStringAsync().Result;
                 data = JsonConvert.DeserializeObject<ApiResponse>(content);
 

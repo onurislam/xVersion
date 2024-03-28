@@ -32,6 +32,8 @@ namespace xVersion
                     txtBackupFile.Text = Data.BackupFile;
                 if (Data.Ignore != "")
                     txtIgnore.Text = Data.Ignore;
+                if (Data.SecureKey != "")
+                    txtSecureKey.Text = Data.SecureKey;
             }
             else
             {
@@ -46,7 +48,8 @@ namespace xVersion
                 SourceURL = txtSourceUrl.Text,
                 Ignore = txtIgnore.Text,
                 BackupFile = txtBackupFile.Text,
-                LocalDir = txtLocalDir.Text
+                LocalDir = txtLocalDir.Text,
+                SecureKey = txtSecureKey.Text
             });
         }
 
