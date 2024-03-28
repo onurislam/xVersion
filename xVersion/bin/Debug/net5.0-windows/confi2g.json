@@ -1,0 +1,4 @@
+{
+  "SourceURL": "https://dev.mtrolab.com",
+  "Ignore": "{\"file\":[\"backup.php\"],\"dir\":[\".well-known\",\"backup\",\"cdn\"]}"
+}

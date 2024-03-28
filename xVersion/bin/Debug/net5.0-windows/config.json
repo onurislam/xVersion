@@ -1,0 +1,6 @@
+{
+  "SourceURL": "https://dev.mtrolab.com/",
+  "Ignore": "{\"file\":[\"backup.php\"],\"dir\":[\".well-known\",\"backup\",\"cdn\"]}",
+  "BackupFile": "backup",
+  "LocalDir": "C:\\Users\\onuri\\OneDrive\\Masaüstü\\mtroLAB\\Projects\\test"
+}
