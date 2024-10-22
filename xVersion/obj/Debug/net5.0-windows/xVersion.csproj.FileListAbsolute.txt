@@ -12,10 +12,11 @@ C:\Users\onuri\OneDrive\Masaüstü\mtroLAB\Projects\xVersion\xVersion\obj\Debug\
 C:\Users\onuri\OneDrive\Masaüstü\mtroLAB\Projects\xVersion\xVersion\obj\Debug\net5.0-windows\xVersion.AssemblyInfoInputs.cache
 C:\Users\onuri\OneDrive\Masaüstü\mtroLAB\Projects\xVersion\xVersion\obj\Debug\net5.0-windows\xVersion.AssemblyInfo.cs
 C:\Users\onuri\OneDrive\Masaüstü\mtroLAB\Projects\xVersion\xVersion\obj\Debug\net5.0-windows\xVersion.csproj.CoreCompileInputs.cache
-C:\Users\onuri\OneDrive\Masaüstü\mtroLAB\Projects\xVersion\xVersion\obj\Debug\net5.0-windows\xVersion.csproj.CopyComplete
 C:\Users\onuri\OneDrive\Masaüstü\mtroLAB\Projects\xVersion\xVersion\obj\Debug\net5.0-windows\xVersion.dll
 C:\Users\onuri\OneDrive\Masaüstü\mtroLAB\Projects\xVersion\xVersion\obj\Debug\net5.0-windows\refint\xVersion.dll
 C:\Users\onuri\OneDrive\Masaüstü\mtroLAB\Projects\xVersion\xVersion\obj\Debug\net5.0-windows\xVersion.pdb
 C:\Users\onuri\OneDrive\Masaüstü\mtroLAB\Projects\xVersion\xVersion\obj\Debug\net5.0-windows\xVersion.genruntimeconfig.cache
 C:\Users\onuri\OneDrive\Masaüstü\mtroLAB\Projects\xVersion\xVersion\obj\Debug\net5.0-windows\ref\xVersion.dll
 C:\Users\onuri\OneDrive\Masaüstü\mtroLAB\Projects\xVersion\xVersion\obj\Debug\net5.0-windows\xVersion.Setting.resources
+C:\Users\onuri\OneDrive\Masaüstü\mtroLAB\Projects\xVersion\xVersion\obj\Debug\net5.0-windows\xVersion.sourcelink.json
+C:\Users\onuri\OneDrive\Masaüstü\mtroLAB\Projects\xVersion\xVersion\obj\Debug\net5.0-windows\xVersion.csproj.Up2Date
